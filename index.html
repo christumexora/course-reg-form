@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booklist App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="skeleton.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Course Registration Form</h1>
+      <form id="book-form">
+        <div>
+          <label for="course-code">Course code</label>
+          <input type="text" id="course-code" class="u-full-width" />
+        </div>
+        <div>
+          <label for="course-title">Course Title</label>
+          <input type="text" id="course-title" class="u-full-width" />
+        </div>
+        <div>
+          <label for="facilitator">Facilitator</label>
+          <input type="text" id="facilitator" class="u-full-width" />
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Submit" class="u-full-width" />
+        </div>
+      </form>
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Course code</th>
+            <th>Course Title</th>
+            <th>Facilitator</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
+    <script src="appes6.js"></script>
+  </body>
+</html>
